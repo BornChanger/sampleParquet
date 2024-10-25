@@ -1,0 +1,8 @@
+[package]
+name = "parquet_sample"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arrow = "42.0.0"  # Use the latest version
+parquet = "42.0.0"  # Make sure this matches the arrow version  
